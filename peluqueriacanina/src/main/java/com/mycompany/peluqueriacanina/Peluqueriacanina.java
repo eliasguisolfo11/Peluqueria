@@ -1,16 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+
 
 package com.mycompany.peluqueriacanina;
 
-/**
- *
- * @author guiso
- */
+import com.mycompany.peluqueriacanina.gui.Principal;
+
+
 public class Peluqueriacanina {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Principal mainWindow = new Principal();
+        
+        //hago visible la pantalla y que no se abra en lugares randoms
+        
+        mainWindow.setVisible(true);
+        mainWindow.setLocationRelativeTo(null);
+        
+        
+        
     }
 }
