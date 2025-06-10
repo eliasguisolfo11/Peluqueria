@@ -237,7 +237,13 @@ public class CargaDatos extends javax.swing.JFrame {
     }//GEN-LAST:event_btnGuardarActionPerformed
 
     private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarActionPerformed
-        // TODO add your handling code here:
+        txtNombre.setText("");
+        txtNombreDuenio.setText("");
+        txtCelDuenio.setText("");
+        txtObservaciones.setText("");
+        txtRaza.setText("");
+        cmbAlergico.setSelectedIndex(0);
+        cmbAtencionEspecial.setSelectedIndex(0);
     }//GEN-LAST:event_btnLimpiarActionPerformed
 
 
